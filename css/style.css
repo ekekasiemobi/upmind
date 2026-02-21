@@ -254,6 +254,7 @@
 /*** Carousel Hero Header Start ***/
 .header-carousel {
     position: relative; 
+    height: 70vh;
 }
 
 .header-carousel .owl-nav .owl-prev {
@@ -304,12 +305,29 @@
 @media (max-width: 576px) {
     .header-carousel .owl-nav .owl-prev,
     .header-carousel .owl-nav .owl-next {
-        top: 630px;
+        top: 300px;
         transition: 0.5s;
     }
 
     .header-carousel .header-carousel-item .carousel-caption .carousel-caption-content {
         width: 95% !important;
+    }
+
+    .header-carousel .header-carousel-item .carousel-caption .carousel-caption-content h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .header-carousel .header-carousel-item .carousel-caption {
+        padding: 20px 0;
+    }
+
+    .header-carousel .header-carousel-item,
+    .header-carousel .header-carousel-item img {
+        height: 400px;
+    }
+
+    .header-carousel {
+        height: 400px;
     }
  
 }
@@ -318,12 +336,12 @@
 .header-carousel .header-carousel-item img {
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 70vh;
     margin-top: 95px;
     display: block;
     object-fit: cover;
     transition: 0.5s;
-
+    background: #000;
 }
 
 @media (max-width: 992px) {
