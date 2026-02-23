@@ -14,6 +14,10 @@
 }
 /*** Spinner End ***/
 
+body {
+    background-color: #040611;
+}
+
 .back-to-top {
     position: fixed;
     right: 30px;
@@ -711,10 +715,17 @@
 
 .team .team-carousel .team-item .team-img img {
     transition: 0.5s;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .team .team-carousel .team-item:hover .team-img img {
     transform: scale(1.1);
+}
+
+.team h1 {
+    color: white;
 }
 /*** Team End ***/
 
@@ -909,6 +920,11 @@
     color: var(--bs-primary) !important;
 }
 /*** Footer End ***/
+
+/* About section heading */
+.container-fluid.py-5 .container.py-5 h1 {
+    color: white !important;
+}
 
 /*** copyright Start ***/
 .copyright {
