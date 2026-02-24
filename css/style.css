@@ -15,7 +15,7 @@
 /*** Spinner End ***/
 
 body {
-    background-color: #040611;
+    background-color: #043565;
 }
 
 .back-to-top {
@@ -923,7 +923,7 @@ body {
 
 /* About section heading */
 .container-fluid.py-5 .container.py-5 h1 {
-    color: white !important;
+    color: white
 }
 
 /*** copyright Start ***/
